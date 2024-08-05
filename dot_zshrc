@@ -106,6 +106,12 @@ source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 #Secretive Agent
 export SSH_AUTH_SOCK=/Users/robert/Library/Containers/com.maxgoedjen.Secretive.SecretAgent/Data/socket.ssh
 
+# kubectl-ai
+export OPENAI_ENDPOINT="http://localhost:11434/v1"
+export OPENAI_DEPLOYMENT_NAME="llama3.1"
+export OPENAI_API_KEY="n/a"
+alias kai=kubectl-ai
+
 # Alias
 alias k=kubectl
 alias python=python3
