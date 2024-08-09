@@ -117,7 +117,8 @@ alias k=kubectl
 alias python=python3
 
 # Kubectx
-export KUBECONFIG=`ls -1 ~/.kube/kubeconfig-* | paste -sd ":" -`
+#export KUBECONFIG=`ls -1 ~/.kube/kubeconfig-* | paste -sd ":" -`
+export KUBECONFIG=`ls -1 ~/.kube/kubeconfig-* & ls -l ~/.kube/config | paste -sd ":" -`
 
 # Direnv
 eval "$(direnv hook zsh)"
