@@ -113,7 +113,7 @@ export OPENAI_API_KEY="n/a"
 alias kai=kubectl-ai
 
 # Alias
-alias k=kubectl
+alias k=kubecolor
 alias python=python3
 
 # Kubectx
