@@ -100,6 +100,9 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
+# Homebrew
+export PATH=$PATH:/opt/homebrew/bin
+
 # Highlight
 source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
@@ -121,7 +124,6 @@ export KUBECONFIG="~/.kube/config:$(find ~/.kube/*config* -type f -maxdepth 1 | 
 
 # Direnv
 eval "$(direnv hook zsh)"
-
 
 # ~/.zshrc
 
