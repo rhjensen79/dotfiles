@@ -118,6 +118,7 @@ alias kai=kubectl-ai
 # Alias
 alias k=kubecolor
 alias python=python3
+alias pip=pip3
 
 # Kubectx
 export KUBECONFIG="~/.kube/config:$(find ~/.kube/*config* -type f -maxdepth 1 | tr '\n' ':')"
