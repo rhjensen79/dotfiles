@@ -129,3 +129,10 @@ eval "$(direnv hook zsh)"
 # ~/.zshrc
 
 eval "$(starship init zsh)"
+
+# Added by LM Studio CLI (lms)
+export PATH="$PATH:/Users/robert/.cache/lm-studio/bin"
+
+# FZF
+source <(fzf --zsh)
+eval "$(uv generate-shell-completion zsh)"
