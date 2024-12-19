@@ -1,2 +1,11 @@
 Host *
 	IdentityAgent ~/Library/Containers/com.maxgoedjen.Secretive.SecretAgent/Data/socket.ssh
+
+Host *
+	UseKeychain yes
+	AddKeysToAgent yes
+	StrictHostKeyChecking no
+	IdentityFile /Users/robert/Library/Containers/com.maxgoedjen.Secretive.SecretAgent/Data/PublicKeys/c0a7d535094e642f9a9caffffb89ee23.pub
+
+Host github.com
+	IdentityFile ~/.ssh/github.pub

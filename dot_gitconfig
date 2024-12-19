@@ -1,7 +1,7 @@
 [user]
 	name = Robert Jensen
 	email = robert@robert-jensen.dk
-	signingkey = ~/.ssh/id_ecdsa.pub
+	signingkey = ~/.ssh/github.pub
 [credential]
 	helper = store
 [core]
